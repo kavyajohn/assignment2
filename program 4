@@ -1,0 +1,10 @@
+for i in range(-1,-10,-2):
+print(i)
+def drange(start, stop, step):
+...     r = start
+...     while r < stop:
+...     	yield r
+...     	r += step
+...     	
+>>> i0=drange(-10, -1, -0.94)
+>>> ["%g" % x for x in i0]
