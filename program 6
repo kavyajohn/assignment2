@@ -1,0 +1,18 @@
+planet = ['mercury','venus','earth','mars','jupitor','satturn','uranus','neptune','pluto']
+pla=input("enter a planet name:")
+
+if pla in planet[0:1]:
+
+	print("you have entered inner palanet....")
+
+elif pla in planet[5:9]:
+
+	print("you have entered outer planet....")
+
+elif pla in planet[1]:
+	
+	print("it is juipter...")	 
+
+else:
+
+	print("it is not valid planet name...")	
