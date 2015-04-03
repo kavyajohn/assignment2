@@ -1,0 +1,17 @@
+gen=input("enter your gender(male or female):")
+sal=int(input("enter your current salary:"))
+
+if gen == 'male'  and  sal < 1000:
+
+	sal=sal + (sal*5/100)
+	print("salary after bonus is:",sal)
+
+elif gen == 'female' and sal < 1000:
+
+ 	sal = sal + (sal*5.5/100)
+ 	print("salary after bonus is:",sal)
+
+elif sal>1000:
+
+	sal = sal + (sal*5/100)
+	print("salary after bonus is:",sal)
